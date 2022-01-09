@@ -35,8 +35,10 @@ struct TripListView: View {
     var body: some View {
         List {
             ForEach(presenter.trips) { item in
-                TripListCell(trip: item)
-                    .frame(height: 240)
+                self.presenter.linkBuilder(for: item) {
+                    TripListCell(trip: item)
+                        .frame(height: 240)
+                }
             }
             .onDelete(perform: presenter.deleteTrip(_:))
         }
