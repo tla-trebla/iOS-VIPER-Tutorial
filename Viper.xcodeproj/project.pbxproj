@@ -142,9 +142,7 @@
 				0A83577D23D6996E00D83533 /* default.json */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				18D775C822AD944400AE281E /* Preview Content */,
-				5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */,
-				5E6D85F8278B545C00CDBB16 /* TripListPresenter.swift */,
-				5E6D85FA278B5C4300CDBB16 /* TripListView.swift */,
+				5E6D85FC278B63B600CDBB16 /* TripList */,
 			);
 			path = Viper;
 			sourceTree = "<group>";
@@ -155,6 +153,16 @@
 				18D775C922AD944400AE281E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E6D85FC278B63B600CDBB16 /* TripList */ = {
+			isa = PBXGroup;
+			children = (
+				5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */,
+				5E6D85F8278B545C00CDBB16 /* TripListPresenter.swift */,
+				5E6D85FA278B5C4300CDBB16 /* TripListView.swift */,
+			);
+			path = TripList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
