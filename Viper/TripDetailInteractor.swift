@@ -26,4 +26,20 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import Foundation
+import SwiftUI
+import Combine
+
+class TripDetailInteractor {
+    
+    private let trip: Trip
+    private let model: DataModel
+    let mapInfoProvider: MapDataProvider
+    
+    private let cancellables = Set<AnyCancellable>()
+    
+    init(trip: Trip, model: DataModel, mapInfoProvider: MapDataProvider) {
+        self.trip = trip
+        self.mapInfoProvider = mapInfoProvider
+        self.model = model
+    }
+}
