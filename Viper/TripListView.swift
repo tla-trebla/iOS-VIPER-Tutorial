@@ -38,6 +38,7 @@ struct TripListView: View {
                 TripListCell(trip: item)
                     .frame(height: 240)
             }
+            .onDelete(perform: presenter.deleteTrip(_:))
         }
         .navigationBarTitle("Roadtrips", displayMode: .inline)
         .navigationBarItems(trailing: presenter.makeAddNewButton())
