@@ -36,6 +36,8 @@ class TripListPresenter: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     
+    private let router = TripListRouter()
+    
     init(interactor: TripListInteractor) {
         self.interactor = interactor
         
