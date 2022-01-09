@@ -26,4 +26,16 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import Foundation
+import SwiftUI
+import Combine
+
+class TripDetailPresenter: ObservableObject {
+    
+    private let interactor: TripDetailInteractor
+    
+    private var cancellables = Set<AnyCancellable>()
+    
+    init(interactor: TripDetailInteractor) {
+        self.interactor = interactor
+    }
+}
