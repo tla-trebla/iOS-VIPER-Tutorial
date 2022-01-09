@@ -38,5 +38,9 @@ class TripListPresenter: ObservableObject {
     
     init(interactor: TripListInteractor) {
         self.interactor = interactor
+        
+        interactor.model.$trips
+            .assign(to: \.trips, on: self)
+            .store(in: &cancellables)
     }
 }
