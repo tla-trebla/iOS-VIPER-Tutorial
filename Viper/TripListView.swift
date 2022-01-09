@@ -33,7 +33,10 @@ struct TripListView: View {
     @ObservedObject var presenter: TripListPresenter
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ForEach(presenter.trips) { item in
+            TripListCell(trip: item)
+                .frame(height: 240)
+        }
     }
 }
 
