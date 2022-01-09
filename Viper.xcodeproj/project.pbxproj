@@ -32,6 +32,7 @@
 		5E6D85FE278B63F700CDBB16 /* TripDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D85FD278B63F700CDBB16 /* TripDetailPresenter.swift */; };
 		5E6D8600278B640B00CDBB16 /* TripDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D85FF278B640B00CDBB16 /* TripDetailInteractor.swift */; };
 		5E6D8602278B641600CDBB16 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D8601278B641600CDBB16 /* TripDetailView.swift */; };
+		5E6D8604278B67C400CDBB16 /* TripListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D8603278B67C400CDBB16 /* TripListRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		5E6D85FD278B63F700CDBB16 /* TripDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailPresenter.swift; sourceTree = "<group>"; };
 		5E6D85FF278B640B00CDBB16 /* TripDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailInteractor.swift; sourceTree = "<group>"; };
 		5E6D8601278B641600CDBB16 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		5E6D8603278B67C400CDBB16 /* TripListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */,
 				5E6D85F8278B545C00CDBB16 /* TripListPresenter.swift */,
 				5E6D85FA278B5C4300CDBB16 /* TripListView.swift */,
+				5E6D8603278B67C400CDBB16 /* TripListRouter.swift */,
 			);
 			path = TripList;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				5E6D8602278B641600CDBB16 /* TripDetailView.swift in Sources */,
 				0A46782923D7AE980073803D /* Waypoint.swift in Sources */,
 				18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */,
+				5E6D8604278B67C400CDBB16 /* TripListRouter.swift in Sources */,
 				0A83577C23D6996200D83533 /* Trip.swift in Sources */,
 				5E6D85FB278B5C4300CDBB16 /* TripListView.swift in Sources */,
 				0A80218C23DF478B00166C86 /* MapDataProvider.swift in Sources */,
