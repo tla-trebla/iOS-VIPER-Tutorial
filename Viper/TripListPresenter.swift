@@ -34,6 +34,8 @@ class TripListPresenter: ObservableObject {
     
     @Published var trips: [Trip] = []
     
+    private var cancellables = Set<AnyCancellable>()
+    
     init(interactor: TripListInteractor) {
         self.interactor = interactor
     }
