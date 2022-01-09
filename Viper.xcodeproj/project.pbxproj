@@ -27,6 +27,7 @@
 		18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C922AD944400AE281E /* Preview Assets.xcassets */; };
 		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
 		5E6D85F7278B535800CDBB16 /* TripListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */; };
+		5E6D85F9278B545C00CDBB16 /* TripListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D85F8278B545C00CDBB16 /* TripListPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		18D775CE22AD944400AE281E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListInteractor.swift; sourceTree = "<group>"; };
+		5E6D85F8278B545C00CDBB16 /* TripListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				18D775CE22AD944400AE281E /* Info.plist */,
 				18D775C822AD944400AE281E /* Preview Content */,
 				5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */,
+				5E6D85F8278B545C00CDBB16 /* TripListPresenter.swift */,
 			);
 			path = Viper;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				0A83577623D697A300D83533 /* MapView.swift in Sources */,
 				0A20EFA2240EA70900A0CA27 /* TripListCell.swift in Sources */,
 				5E6D85F7278B535800CDBB16 /* TripListInteractor.swift in Sources */,
+				5E6D85F9278B545C00CDBB16 /* TripListPresenter.swift in Sources */,
 				0A83577B23D6996200D83533 /* Persistence.swift in Sources */,
 				0A46782923D7AE980073803D /* Waypoint.swift in Sources */,
 				18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */,
