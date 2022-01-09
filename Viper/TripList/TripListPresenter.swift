@@ -59,4 +59,12 @@ class TripListPresenter: ObservableObject {
     func deleteTrip(_ index: IndexSet) {
         interactor.deleteTrip(index)
     }
+    
+    func linkBuilder<Content: View>(for trip: Trip,
+                                    @ViewBuilder content: () -> Content) -> some View {
+        NavigationLink(
+            destination: router.makeDetailView(for: trip, model: interactor.model)) {
+            content()
+        }
+    }
 }
