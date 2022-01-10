@@ -53,4 +53,8 @@ class TripDetailPresenter: ObservableObject {
             .assign(to: \.tripName, on: self)
             .store(in: &cancellables)
     }
+    
+    func save() {
+        interactor.save()
+    }
 }
