@@ -36,7 +36,7 @@ class TripDetailInteractor {
     private let model: DataModel
     let mapInfoProvider: MapDataProvider
     
-    private let cancellables = Set<AnyCancellable>()
+    private var cancellables = Set<AnyCancellable>()
     
     var tripName: String { trip.name }
     var tripNamePublisher: Published<String>.Publisher { trip.$name }
