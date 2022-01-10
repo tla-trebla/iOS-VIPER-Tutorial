@@ -55,6 +55,18 @@ class TripDetailPresenter: ObservableObject {
         interactor.tripNamePublisher
             .assign(to: \.tripName, on: self)
             .store(in: &cancellables)
+        
+        interactor.$totalDistance
+            .map {
+                "Total Distance: " + MeasurementFormatter().string(from: $0)
+            }
+            .replaceNil(with: "Calculating...")
+            .assign(to: \.distanceLabel, on: self)
+            .store(in: &cancellables)
+        
+        interactor.$wayPoints
+            .assign(to: \.waypoints, on: self)
+            .store(in: &cancellables)
     }
     
     func save() {
