@@ -156,10 +156,8 @@
 				0A83577D23D6996E00D83533 /* default.json */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				18D775C822AD944400AE281E /* Preview Content */,
-				5E6D85FC278B63B600CDBB16 /* TripList */,
-				5E0B3575278BFFD9001E7378 /* TripDetail */,
-				5E0B3576278C0009001E7378 /* TripMapViewPresenter.swift */,
-				5E0B3578278C047A001E7378 /* TripMapView.swift */,
+				5E6D85FC278B63B600CDBB16 /* TripListModule */,
+				5E0B3575278BFFD9001E7378 /* TripDetailModule */,
 			);
 			path = Viper;
 			sourceTree = "<group>";
@@ -172,18 +170,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5E0B3575278BFFD9001E7378 /* TripDetail */ = {
+		5E0B3575278BFFD9001E7378 /* TripDetailModule */ = {
 			isa = PBXGroup;
 			children = (
+				5E0B3576278C0009001E7378 /* TripMapViewPresenter.swift */,
+				5E0B3578278C047A001E7378 /* TripMapView.swift */,
 				5E6D85FD278B63F700CDBB16 /* TripDetailPresenter.swift */,
 				5E6D85FF278B640B00CDBB16 /* TripDetailInteractor.swift */,
 				5E6D8601278B641600CDBB16 /* TripDetailView.swift */,
 				5E0B357A278C0689001E7378 /* TripDetailRouter.swift */,
 			);
-			path = TripDetail;
+			path = TripDetailModule;
 			sourceTree = "<group>";
 		};
-		5E6D85FC278B63B600CDBB16 /* TripList */ = {
+		5E6D85FC278B63B600CDBB16 /* TripListModule */ = {
 			isa = PBXGroup;
 			children = (
 				5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */,
@@ -191,7 +191,7 @@
 				5E6D85FA278B5C4300CDBB16 /* TripListView.swift */,
 				5E6D8603278B67C400CDBB16 /* TripListRouter.swift */,
 			);
-			path = TripList;
+			path = TripListModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
