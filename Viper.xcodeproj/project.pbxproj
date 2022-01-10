@@ -28,6 +28,7 @@
 		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
 		5E0B3577278C0009001E7378 /* TripMapViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B3576278C0009001E7378 /* TripMapViewPresenter.swift */; };
 		5E0B3579278C047A001E7378 /* TripMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B3578278C047A001E7378 /* TripMapView.swift */; };
+		5E0B357B278C0689001E7378 /* TripDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B357A278C0689001E7378 /* TripDetailRouter.swift */; };
 		5E6D85F7278B535800CDBB16 /* TripListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */; };
 		5E6D85F9278B545C00CDBB16 /* TripListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D85F8278B545C00CDBB16 /* TripListPresenter.swift */; };
 		5E6D85FB278B5C4300CDBB16 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D85FA278B5C4300CDBB16 /* TripListView.swift */; };
@@ -62,6 +63,7 @@
 		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E0B3576278C0009001E7378 /* TripMapViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapViewPresenter.swift; sourceTree = "<group>"; };
 		5E0B3578278C047A001E7378 /* TripMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapView.swift; sourceTree = "<group>"; };
+		5E0B357A278C0689001E7378 /* TripDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailRouter.swift; sourceTree = "<group>"; };
 		5E6D85F6278B535800CDBB16 /* TripListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListInteractor.swift; sourceTree = "<group>"; };
 		5E6D85F8278B545C00CDBB16 /* TripListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListPresenter.swift; sourceTree = "<group>"; };
 		5E6D85FA278B5C4300CDBB16 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				5E6D85FD278B63F700CDBB16 /* TripDetailPresenter.swift */,
 				5E6D85FF278B640B00CDBB16 /* TripDetailInteractor.swift */,
 				5E6D8601278B641600CDBB16 /* TripDetailView.swift */,
+				5E0B357A278C0689001E7378 /* TripDetailRouter.swift */,
 			);
 			path = TripDetail;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				0A20EFAF240EA73A00A0CA27 /* WaypointViewInteractor.swift in Sources */,
 				0A20EFAD240EA73A00A0CA27 /* WaypointViewPresenter.swift in Sources */,
 				18D775C122AD944300AE281E /* AppDelegate.swift in Sources */,
+				5E0B357B278C0689001E7378 /* TripDetailRouter.swift in Sources */,
 				0A20EFAE240EA73A00A0CA27 /* WaypointView.swift in Sources */,
 				0A83577623D697A300D83533 /* MapView.swift in Sources */,
 				5E6D85FE278B63F700CDBB16 /* TripDetailPresenter.swift in Sources */,
