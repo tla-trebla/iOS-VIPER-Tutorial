@@ -41,8 +41,11 @@ class TripDetailPresenter: ObservableObject {
     @Published var distanceLabel: String = "Calculating..."
     @Published var waypoints: [Waypoint] = []
     
+    private let router: TripDetailRouter
+    
     init(interactor: TripDetailInteractor) {
         self.interactor = interactor
+        self.router = TripDetailRouter(mapProvider: interactor.mapInfoProvider)
         
         setTripName = Binding<String>(
             get: {
