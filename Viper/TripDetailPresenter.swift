@@ -48,5 +48,9 @@ class TripDetailPresenter: ObservableObject {
                 interactor.setTripName($0)
             }
         )
+        
+        interactor.tripNamePublisher
+            .assign(to: \.tripName, on: self)
+            .store(in: &cancellables)
     }
 }
