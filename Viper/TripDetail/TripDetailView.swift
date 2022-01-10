@@ -40,6 +40,19 @@ struct TripDetailView: View {
         }
         .navigationBarTitle(Text(presenter.tripName), displayMode: .inline)
         .navigationBarItems(trailing: Button("Save", action: presenter.save))
+        
+        HStack {
+            Spacer()
+            EditButton()
+            Button(action: presenter.addWaypoint) {
+                Text("Add")
+            }
+        }.padding([.horizontal])
+        List {
+            ForEach(presenter.waypoints, content: presenter.cell)
+                .onMove(perform: presenter.didMoveWaypoint(fromOffsets:toOffset:))
+                .onDelete(perform: presenter.didDeleteWaypoint(_:))
+        }
     }
 }
 
